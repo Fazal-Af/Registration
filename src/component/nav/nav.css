@@ -1,0 +1,22 @@
+nav {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+.all-nav-link {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  background: repeating-radial-gradient(
+    circle,
+    yellow 10px,
+    #154a8b,
+    rgb(207, 76, 207) 50px
+  );
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50%;
+}

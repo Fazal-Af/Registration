@@ -1,0 +1,75 @@
+.State-main-container {
+  width: var(--container-lg);
+  margin: 5vh auto;
+}
+
+.formData {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 5vh;
+  width: 40%;
+  height: 60%;
+  margin: auto;
+  box-shadow: 0.3rem 0.3rem 0.7rem 0.7rem rgba(101, 100, 100, 0.405);
+  background-color: white;
+}
+.headingSignUp {
+  margin: 2vh auto;
+  text-transform: uppercase;
+}
+.users-data {
+  margin: 20vh 0;
+  position: relative;
+  background-color: white;
+}
+.users-data h1 {
+  text-align: center;
+  box-shadow: 0.3rem 0.3rem 0.7rem 0.7rem rgba(101, 100, 100, 0.405);
+  color: blueviolet;
+}
+.user-data {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  padding: 0 0.06vw 0 1vw;
+  margin-bottom: 2vh;
+  box-shadow: 0.3rem 0.3rem 0.7rem 0.7rem rgba(101, 100, 100, 0.405);
+}
+.btn {
+  background-color: rgb(250, 53, 19);
+  color: white;
+  border: none;
+}
+
+/* ============================Mediam Device========================= */
+
+@media screen and (max-width: 1024px) {
+  .State-main-container {
+    width: var(--container-md);
+  }
+  .formData {
+    width: var(--container-lg);
+    height: 60%;
+  }
+  .user-data{
+    height: 5vh;
+  }
+}
+/* ============================small Device========================= */
+
+@media screen and (max-width: 600px) {
+  .State-main-container {
+    width: var(--container-sm);
+  }
+  .formData {
+    width: var(--container-sm);
+    height: 60%;
+  }
+  .users-data {
+    width: var(--container-sm);
+  }
+  .user-data{
+    height: 10vh;
+  }
+}

@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  padding: none;
+  margin: none;
+}
+
+:root {
+  --container-lg: 60%;
+  --container-md: 70%;
+  --container-sm: 90%;
+}
+
+body{
+    background: #dedbdb;
+}
